@@ -8,7 +8,7 @@ const Home = () => {
       <div className={styles.textContainer}>
         <h1 className={styles.title}>Preserving Your Memories </h1>
         <p className={styles.desc}>
-        At MemoryMuse, we understand the profound significance of memories. They're the threads that weave the fabric of our lives, stitching together moments of joy, sorrow, love, and growth. Our website serves as a sanctuary for these cherished fragments of time, offering a digital haven where memories are safeguarded and celebrated.
+        At MemoryMuse, we understand the profound significance of memories. They&apos;re the threads that weave the fabric of our lives, stitching together moments of joy, sorrow, love, and growth. Our website serves as a sanctuary for these cherished fragments of time, offering a digital haven where memories are safeguarded and celebrated.
         </p>
         <div className={styles.buttons}>
           <Link href="/about">
