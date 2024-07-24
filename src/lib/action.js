@@ -36,7 +36,6 @@ export const deletePost = async (formData) => {
     await Post.findByIdAndDelete(id);
     console.log("deleted from db");
     revalidatePath("/blog");
-    revalidatePath("/admin");
   } catch (err) {
     console.log(err);
     return { error: "Something went wrong!" };
