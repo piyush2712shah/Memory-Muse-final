@@ -1,0 +1,67 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/app/addpost/admin.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.admin_container___4bS_ {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.admin_row__6kBUC {
+  display: flex;
+  gap: 50px;
+}
+
+.admin_row__6kBUC h1{
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.admin_col__7UKmC {
+  flex: 1 1;
+}
+
+.admin_col__7UKmC  img {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.admin_line__qNoYR{
+  margin: 50px;
+  color: var(--bgSoft)
+}
+
+@media (max-width: 768px) {
+  .admin_row__6kBUC {
+    flex-direction: column;
+  }
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/addPostForm/addPostForm.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+.addPostForm_container__iHSXc {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.addPostForm_container__iHSXc input,
+.addPostForm_container__iHSXc textarea,
+.addPostForm_container__iHSXc select {
+  padding: 15px;
+  background-color: var(--bgSoft);
+  border: none;
+  border-radius: 5px;
+  color: var(--textColor);
+}
+
+.addPostForm_container__iHSXc button {
+  padding: 20px;
+  cursor: pointer;
+  background-color: var(--btn);
+  border: none;
+  border-radius: 5px;
+  color: var(--textColor);
+  font-weight: bold;
+}

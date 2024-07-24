@@ -1,0 +1,79 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/postCard/postCard.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.postCard_container__yIWzy{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.postCard_top__jr3dE{
+  display: flex;
+}
+
+.postCard_imgContainer__KGEEZ{
+  width: 90%;
+  height: 400px;
+  position: relative;
+}
+
+.postCard_img__TTypP{
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.postCard_title__95FgI{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.postCard_date__pzBxf{
+  font-size: 15px;
+  font-weight: lighter;
+  /* transform: rotate(270deg); */
+}
+
+
+.postCard_desc__jqCqC{
+  width: 90%;
+  margin-bottom: 20px;
+  font-weight: 300;
+  color: gray;
+}
+
+.postCard_link__xorsS{
+  text-decoration: underline;
+}
+
+
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/app/blog/blog.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.blog_container__2_z7z {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.blog_post__tkPFO {
+  width: 30%;
+}
+
+@media screen and (max-width: 1280px) {
+  .blog_post__tkPFO {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .blog_post__tkPFO {
+    width: 100%;
+  }
+}
+
