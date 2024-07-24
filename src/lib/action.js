@@ -23,7 +23,6 @@ export const addPost = async (prevState,formData) => {
     await newPost.save();
     console.log("saved to db");
     revalidatePath("/blog");
-    revalidatePath("/admin");
   } catch (err) {
     console.log(err);
     return { error: "Something went wrong!" };
